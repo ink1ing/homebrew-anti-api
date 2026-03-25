@@ -15,7 +15,7 @@ class AntiApi < Formula
       #!/bin/bash
       export ANTI_API_PACKAGE_MANAGER=homebrew
       export ANTI_API_NO_SELF_UPDATE=1
-      exec "#{libexec}/anti-api/anti-api" "$@"
+      exec "#{libexec}/anti-api" "$@"
     SH
     chmod 0755, bin/"anti-api"
 
